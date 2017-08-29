@@ -1,0 +1,11 @@
+{"level":"info","message":"Starting botpress version 1.0.27","timestamp":"2017-08-29T11:57:05.090Z"}
+{"level":"verbose","message":"[UMM] Enabled for web","timestamp":"2017-08-29T11:57:05.105Z"}
+{"level":"info","message":"Loaded botpress-web, version 1.2.3","timestamp":"2017-08-29T11:57:05.105Z"}
+{"level":"info","message":"Loaded 1 modules","timestamp":"2017-08-29T11:57:05.105Z"}
+{"level":"debug","message":"Loading middleware: UMM.instrumentation","timestamp":"2017-08-29T11:57:05.121Z"}
+{"level":"debug","message":"Loading middleware: hear","timestamp":"2017-08-29T11:57:05.121Z"}
+{"level":"debug","message":"Loading middleware: conversations","timestamp":"2017-08-29T11:57:05.121Z"}
+{"level":"debug","message":"Loading middleware: web.sendMessages","timestamp":"2017-08-29T11:57:05.121Z"}
+{"level":"debug","message":"Loading middleware: fallback","timestamp":"2017-08-29T11:57:05.121Z"}
+{"level":"info","message":"Bot launched. Visit: http://localhost:3000","timestamp":"2017-08-29T11:57:05.448Z"}
+{"level":"error","message":"Could not fetch modules","timestamp":"2017-08-29T11:57:22.246Z"}
