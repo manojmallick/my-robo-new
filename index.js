@@ -25,6 +25,10 @@ module.exports = function(bp) {
   bp.hear(/GET_STARTED|hello|hi|test|hey|holla/i, (event, next) => {
     event.reply('#welcome') // See the file `content.yml` to see the block
   })
+  
+  var router = bp.getRouter('botpress-analytics');
+  
+  router.get('/ping', (req, res, next) => res.send('pong'))
 
   // You can also pass a matcher object to better filter events
   bp.hear({
