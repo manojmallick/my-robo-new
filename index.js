@@ -26,7 +26,7 @@ module.exports = function(bp) {
     event.reply('#welcome') // See the file `content.yml` to see the block
   })
   
-  var router = bp.getRouter('botpress-analytics');
+  var router = bp.getRouter('botpress-analytics',{ auth: false });
   
   router.get('/ping', (req, res, next) => res.send('pong'))
 
