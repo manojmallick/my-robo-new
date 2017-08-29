@@ -7,7 +7,7 @@
     "botpress": "1.x",
     "botpress-web": "1.x"   
   },
-  "engines": {
+"engines": {
  "node": ">= 8.0"
 }
   "scripts": {
